@@ -10,36 +10,43 @@ import messagesvg from "../assets/message2.svg"
 import viewssvg from "../assets/view.svg"
 export const Navtab = [
     {
-      id: "0",
+      
       title: "Jobs",
       svg: Job,
-      url: "#features",
+      url: "/",
     },
     {
-      id: "1",
+   
       title: "Messages",
       svg: Message,
-      url: "#pricing",
+      url: "/message",
     },
     {
-      id: "2",
+   
       title: "Payments",
       svg: Coin,
-      url: "#how-to-use",
+      url: "/payments",
     },]
 
     export const Tabslider= [
       {
         title: "Job preview",
+        url: "/",
       },
       {
         title: "Applicants",
+        url: "/applicants",
+
       },
       {
         title: "Match",
+        url: "/match",
+
       },
       {
         title: "Message",
+        url: "/jobmessage",
+
       },
     ]
 
