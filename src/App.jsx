@@ -14,6 +14,7 @@ function App() {
     <>
       <div >
         <BrowserRouter>
+        <div className="mx-auto max-w-[1300px]">
           <Header />
           <Routes>
             <Route path="/" element={<JobPage />}>
@@ -25,6 +26,7 @@ function App() {
             <Route path="/message" element={<MessagePage />} />
             <Route path="/payments" element={<PaymentsPage />} />
           </Routes>
+          </div>
         </BrowserRouter>
       </div>
     </>

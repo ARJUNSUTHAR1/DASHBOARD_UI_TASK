@@ -7,7 +7,7 @@ const Tabs = () => {
  const navigate = useNavigate();
 
   return (
-    <div className='mt-[150px] md:mt-[109px] md:pl-[5rem] pl-[0.3rem] relative w-full  h-[67px] border-[1px] border-[#E7E7E7] '>
+    <div className='mt-[150px] md:mt-[90px] md:pl-[4.5rem] pl-[0.3rem] relative w-full  h-[52px] border-[1px] border-[#E7E7E7] '>
       <div className=' w-full md:w-[45%] h-full flex  items-center relative   '>
       <div  className='active w-1/4 h-[2px] bottom-0 absolute transition-all duration-500' style={{ left: `${tabIndex * 25}%` }}>
       <div className='bg-[#DC4A2D] h-full w-2/5 mx-auto'></div>
