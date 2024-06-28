@@ -16,7 +16,7 @@ const Tabs = () => {
       {Tabslider.map((item,index)=>(
         <button key={index} onClick={()=>{setTabIndex(index),
           navigate(item.url)
-        }} className={`w-1/4  text-[#B0B0B0] outline-none font-[500] text-[17px] ${tabIndex === index ?' text-[#DC4A2D] font-[700]': ""}`} >{item.title}</button>
+        }} className={`w-1/4  text-[#B0B0B0] outline-none font-[500] md:text-[17px] text-[14px] ${tabIndex === index ?' text-[#DC4A2D] font-[700]': ""}`} >{item.title}</button>
       ))}</div>
     </div>
   )

@@ -12,7 +12,7 @@ import JobMessage from "./components/jobdeatailsection/JobMessage";
 function App() {
   return (
     <>
-      <div className="">
+      <div >
         <BrowserRouter>
           <Header />
           <Routes>

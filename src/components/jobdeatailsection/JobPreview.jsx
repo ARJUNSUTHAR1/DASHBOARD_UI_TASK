@@ -33,7 +33,7 @@ const JobPreview = () => {
           </div>
 
           <div className="flex justify-start items-center gap-5">
-            <div className="location flex">
+            <div className="location flex gap-1">
               <img src={locationsvg} alt="" />
               <span className="text-[#5D5D5D] text-[17px] font-[500]">
                 Delaware,USA
@@ -42,7 +42,7 @@ const JobPreview = () => {
 
             <span className="dot w-1.5 h-1.5 rounded-full bg-[#D1D1D1]"></span>
 
-            <div className="price flex">
+            <div className="price flex gap-1">
               <img src={pricesvg} alt="" />
               <span className="text-[#5D5D5D] text-[17px] font-[500]">
                 $300k-$400k
@@ -177,7 +177,7 @@ const JobPreview = () => {
               index === 3 && "border-none"
             }`}
           >
-            <div className="flex justify-center items-center gap-1">
+            <div className="flex justify-center items-center gap-2">
               <img src={bar.svg} alt="" />
               <h6 className="text-[15px] font-[500] text-[#4F4F4F]">
                 {bar.name}
