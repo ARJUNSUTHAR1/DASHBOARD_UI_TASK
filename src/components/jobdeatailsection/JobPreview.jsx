@@ -54,7 +54,7 @@ const JobPreview = () => {
 
         {/* //requirements */}
 
-        <div className=" md:pl-[5.5rem] pl-[1rem] w-3/4 flex-col md:flex md:flex-row md:items-start justify-between  py-5  ">
+        <div className=" md:pl-[5.5rem] pl-[1rem] w-3/4 flex-col md:flex md:flex-row md:items-start justify-between  py-5 mt-8 ">
           <div className="skill flex flex-col gap-2 ">
             <h6 className="text-[#6E6D6D] text-[10px] font-[500]">
               Skill required
